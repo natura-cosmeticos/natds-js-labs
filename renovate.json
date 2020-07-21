@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "labels": ["dependencies", "renovate"],
+  "lockFileMaintenance": true,
+  "masterIssue": true,
+  "semanticCommits": true
+}
