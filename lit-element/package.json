@@ -1,9 +1,12 @@
 {
-  "name": "natds-js-labs-lit-element",
+  "name": "@natds/js-labs-lit-element",
   "version": "0.1.0",
   "description": "Web components for web development inside Natura & Co.",
   "main": "src/index.ts",
   "scripts": {
+    "build": "tsc",
+    "develop": "tsc --watch",
+    "start": "npm run develop",
     "test": "echo \"Error: no test specified\" && exit 0",
     "test:ci": "npm run test"
   },
@@ -23,7 +26,9 @@
   },
   "homepage": "https://github.com/natura-cosmeticos/natds-web-components#readme",
   "devDependencies": {
+    "@webcomponents/webcomponentsjs": "2.4.4",
     "lit-element": "2.3.1",
-    "rollup": "2.21.0"
+    "rollup": "2.21.0",
+    "typescript": "3.9.7"
   }
 }
