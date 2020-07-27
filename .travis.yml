@@ -1,5 +1,6 @@
 dist: xenial
 language: node_js
+node_js: lts/*
 os: linux
 before_install:
    - "npm install -g npm"
