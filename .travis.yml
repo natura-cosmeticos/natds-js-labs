@@ -1,0 +1,18 @@
+dist: xenial
+language: node_js
+os: linux
+before_install:
+   - "npm install -g npm"
+jobs:
+  include:
+    - stage: direflow
+      before_install:
+        - "cd direflow"
+      install:
+        - "npm ci"
+      script: "npm run test:ci"
+      deploy:
+        provider: script
+        script: "npm publish"
+        on:
+          branch: main
