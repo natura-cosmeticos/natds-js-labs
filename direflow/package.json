@@ -1,5 +1,5 @@
 {
-  "name": "natds-js-labs-direflow",
+  "name": "@natds/labs-direflow",
   "version": "0.1.0",
   "description": "Direflow Component Starter",
   "author": "",
@@ -25,7 +25,7 @@
   "scripts": {
     "build": "direflow-scripts build",
     "build:lib": "direflow-scripts build:lib",
-    "pretest": "npm run build",
+    "pretest": "npm run build && npm run build:lib",
     "start": "direflow-scripts start",
     "test": "direflow-scripts test",
     "test:ci": "CI=true npm run test -- --ci --passWithNoTests --watchAll=false"
