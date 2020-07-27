@@ -1,27 +1,39 @@
 {
   "name": "@natds/labs-direflow",
-  "version": "0.1.0",
+  "displayName": "NatDS Labs: Direflow",
   "description": "Direflow Component Starter",
-  "author": "",
-  "license": "MIT",
+  "version": "0.1.0",
+  "private": false,
   "keywords": [
     "direflow",
     "react",
     "webcomponent"
   ],
   "homepage": "https://direflow.io/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Silind-Software/direflow"
-  },
   "bugs": {
     "email": "direflow@silind.com",
     "url": "https://github.com/Silind-Software/direflow/issues/new"
   },
-  "main": "build/direflowBundle.js",
-  "files": [
-    "build"
+  "license": "ISC",
+  "author": "Natura & Co. <designsystem@natura.net>",
+  "contributors": [
+    "Jimmy Andrade <jimmy.andrade@thoughtworks.com>"
   ],
+  "files": [
+    "build",
+    "lib"
+  ],
+  "main": "build/direflowBundle.js",
+  "source": "src/direflow-components/natds-js-labs-direflow/index.tsx",
+  "directories": {
+    "lib": "lib",
+    "test": "src/direflow-components/natds-js-labs-direflow/test"
+  },
+  "repository": {
+    "directory": "direflow",
+    "url": "https://github.com/natura-cosmeticos/natds-js-labs",
+    "type": "git"
+  },
   "scripts": {
     "build": "direflow-scripts build",
     "build:lib": "direflow-scripts build:lib",
@@ -30,6 +42,7 @@
     "test": "direflow-scripts test",
     "test:ci": "CI=true npm run test -- --ci --passWithNoTests --watchAll=false"
   },
+  "config": {},
   "dependencies": {
     "@types/node": "12.7.8",
     "@types/react": "16.9.3",
@@ -55,6 +68,12 @@
     "typescript": "3.9.7",
     "webpack-cli": "3.3.12",
     "ts-loader": "6.2.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "eslintConfig": {
     "extends": "react-app"
