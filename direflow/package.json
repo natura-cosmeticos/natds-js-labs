@@ -61,7 +61,7 @@
     "eslint-plugin-react": "7.20.4",
     "@types/jest": "26.0.7",
     "@types/react-test-renderer": "16.9.2",
-    "jest-environment-jsdom-fourteen": "0.1.0",
+    "jest-environment-jsdom-fourteen": "1.0.1",
     "react-app-rewired": "2.1.6",
     "react-test-renderer": "16.13.1",
     "to-string-loader": "1.1.6",
