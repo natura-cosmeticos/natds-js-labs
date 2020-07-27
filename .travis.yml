@@ -6,13 +6,19 @@ jobs:
   include:
     - stage: direflow
       before_install:
-        - "cd direflow"
+        - "cd ${TRAVIS_BUILD_DIR}/direflow"
       install:
         - "npm ci"
       script: "npm run test:ci"
-      deploy:
-        provider: script
-        script: "npm publish"
-        on:
-          branch: main
-          skip_cleanup: true
+    - stage: lit-element
+      before_install:
+        - "cd ${TRAVIS_BUILD_DIR}/lit-element"
+      install:
+        - "npm ci"
+      script: "npm run test"
+    - stage: stencil
+      before_install:
+        - "cd ${TRAVIS_BUILD_DIR}/stencil"
+      install:
+        - "npm ci"
+      script: "npm run test:ci"
