@@ -23,10 +23,12 @@
     "build"
   ],
   "scripts": {
-    "start": "direflow-scripts start",
     "build": "direflow-scripts build",
     "build:lib": "direflow-scripts build:lib",
-    "test": "direflow-scripts test"
+    "pretest": "npm run build",
+    "start": "direflow-scripts start",
+    "test": "direflow-scripts test",
+    "test:ci": "CI=true npm run test -- --ci --passWithNoTests --watchAll=false"
   },
   "dependencies": {
     "@types/node": "12.7.8",
