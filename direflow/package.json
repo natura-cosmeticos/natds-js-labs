@@ -50,7 +50,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "3.4.1",
-    "direflow-component": "3.4.15",
+    "direflow-component": "3.4.16",
     "direflow-scripts": "3.4.15"
   },
   "devDependencies": {
