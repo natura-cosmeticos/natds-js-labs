@@ -24,7 +24,7 @@
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "devDependencies": {
-    "@stencil/core": "1.17.2",
+    "@stencil/core": "1.17.3",
     "@types/jest": "26.0.8",
     "@types/puppeteer": "3.0.1",
     "jest": "26.2.2",
