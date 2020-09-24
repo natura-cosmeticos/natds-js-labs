@@ -58,7 +58,7 @@
     "@typescript-eslint/parser": "4.0.1",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-react": "7.21.0",
+    "eslint-plugin-react": "7.21.1",
     "@types/jest": "26.0.14",
     "@types/react-test-renderer": "16.9.3",
     "jest-environment-jsdom-fourteen": "1.0.1",
