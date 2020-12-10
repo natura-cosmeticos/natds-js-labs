@@ -59,7 +59,7 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.21.5",
-    "@types/jest": "26.0.18",
+    "@types/jest": "26.0.19",
     "@types/react-test-renderer": "17.0.0",
     "jest-environment-jsdom-fourteen": "1.0.1",
     "react-app-rewired": "2.1.7",
