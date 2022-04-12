@@ -49,7 +49,7 @@
     "@types/react-dom": "18.0.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-scripts": "5.0.0",
+    "react-scripts": "5.0.1",
     "direflow-component": "3.5.5",
     "direflow-scripts": "3.5.5"
   },
