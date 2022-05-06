@@ -27,8 +27,8 @@
     "@stencil/core": "2.15.1",
     "@types/jest": "27.5.0",
     "@types/puppeteer": "5.4.6",
-    "jest": "28.0.3",
-    "jest-cli": "28.0.3",
+    "jest": "28.1.0",
+    "jest-cli": "28.1.0",
     "puppeteer": "13.7.0"
   },
   "license": "MIT"
