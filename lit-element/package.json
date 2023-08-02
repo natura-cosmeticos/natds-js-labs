@@ -27,7 +27,7 @@
   "homepage": "https://github.com/natura-cosmeticos/natds-web-components#readme",
   "devDependencies": {
     "@webcomponents/webcomponentsjs": "2.8.0",
-    "lit-element": "3.3.2",
+    "lit-element": "3.3.3",
     "rollup": "3.27.0",
     "typescript": "5.1.6"
   }
