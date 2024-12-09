@@ -28,7 +28,7 @@
   "devDependencies": {
     "@webcomponents/webcomponentsjs": "2.8.0",
     "lit-element": "3.3.3",
-    "rollup": "3.28.1",
+    "rollup": "3.29.5",
     "typescript": "5.1.6"
   }
 }
