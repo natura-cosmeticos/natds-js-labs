@@ -45,10 +45,10 @@
   "config": {},
   "dependencies": {
     "@types/node": "18.16.19",
-    "@types/react": "18.2.15",
-    "@types/react-dom": "18.2.7",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "react-scripts": "5.0.1",
     "direflow-component": "4.0.0",
     "direflow-scripts": "3.5.5"
@@ -63,7 +63,7 @@
     "@types/react-test-renderer": "18.0.0",
     "jest-environment-jsdom-fourteen": "1.0.1",
     "react-app-rewired": "2.2.1",
-    "react-test-renderer": "18.2.0",
+    "react-test-renderer": "19.0.0",
     "to-string-loader": "1.2.0",
     "typescript": "5.1.6",
     "webpack-cli": "5.1.4",
